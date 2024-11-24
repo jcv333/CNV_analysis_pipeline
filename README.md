@@ -9,5 +9,6 @@ This repository provides an example of a mock pipeline for CNVs analysis. The pi
 Script available in the subdirectory <b> 01_PileUp </b>, file `pileup.sh`. Pileup is performed providing matched blood and tumor BAM files of the patient in question.
 
 ## 2) Segment analysis.
-Script available in the subdirectory <b> 02_Segments </b>, file `segments_analysis.R`. This step is written as an Rscript `.R`.
+Script available in the subdirectory <b> 02_Segments </b>, file `segments_analysis.R`. This step is written as an Rscript `.R`. For automation purposes, segment analysis is executed as `Rscript` within the bash `sh` environment of the above pileup analysis.
+
 
