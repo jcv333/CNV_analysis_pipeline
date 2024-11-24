@@ -10,7 +10,7 @@ library(sequenza)
 library(scarHRD)
 
 # 2. Run segment analysis.
-# ---------- a) Store in an object the output of pileup analysis.
+# ---------- a) Store the output of pileup analysis in an object.
 data.file <- "/home/josecv3/scratch/foulkeslab_patients/source/AFN-03791_out_small.seqz.gz"
 
 # ---------- b) Extraction considering only chromosomes 1-22 + X-Y.
